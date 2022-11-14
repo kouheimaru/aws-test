@@ -5,10 +5,10 @@ import "github.com/gin-gonic/gin"
 // PingJSON は疎通確認用
 func PingJSON(c *gin.Context) {
 	c.JSON(200, gin.H{
-		"message": "gooddd",
-		"message": "gooddd",
-		"message": "gooddd",
-		"message": "gooddd"
+		"message": "hello",
+		"name": "kouhei",
+		"id": "12",
+		"address": "hukui"
 	})
 	return
 }
