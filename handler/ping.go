@@ -8,7 +8,7 @@ func PingJSON(c *gin.Context) {
 		"message": "gooddd",
 		"message": "gooddd",
 		"message": "gooddd",
-		"message": "gooddd",
+		"message": "gooddd"
 	})
 	return
 }
