@@ -8,7 +8,7 @@ func PingJSON(c *gin.Context) {
 		"message": "hello",
 		"name": "kouhei",
 		"id": "12",
-		"address": "hukui"
+		"address": "hukui",
 	})
 	return
 }
